@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Numbers</title>
+</head>
+<body>
+    <h1>Sort Numbers</h1>
+    <p>Enter numbers separated by commas (e.g., 5, 3, 9, 2) and press Enter. The numbers will be sorted in descending order.</p>
+    <form action="/sort" method="post">
+        <input type="text" name="numbers" placeholder="Enter numbers here" required>
+        <button type="submit">Sort</button>
+    </form>
+
+    <h2>Generate Random Numbers</h2>
+    <p>Enter the total number of random numbers to generate and sort in descending order.</p>
+    <form action="/generate" method="post">
+        <input type="number" name="total_numbers" placeholder="Total numbers to generate" required>
+        <button type="submit">Generate and Sort</button>
+    </form>
+</body>
+</html>
